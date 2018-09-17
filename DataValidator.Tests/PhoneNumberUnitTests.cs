@@ -28,6 +28,7 @@ namespace DataValidator.Tests
         [TestCase("me chama no zap 031986619392 vlw", true, "031", "986619392", "031986619392")]
         [TestCase("me chama no zap 86619392 vlw", false, "", "", "")]
         [TestCase("me chama no zap 8661-9392 vlw", false, "", "", "")]
+        [TestCase("me chama no zap vlw", false, "", "", "")]
         public void ExtractAndValidatePhoneNumber(string text, bool isValid, string expectedRegionCode, string expectedNumber, string expectedFullNumber)
         {
             // Arrange

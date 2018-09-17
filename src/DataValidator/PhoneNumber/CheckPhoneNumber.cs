@@ -15,6 +15,11 @@ namespace DataValidator.PhoneNumber
             PhoneRegex = new Regex(@"(((?<CountryState>\+\d\d\(?0?\d\d\)?)|(?<State>(\()?0?\d\d(\))?))?(?<Phone>(\d){9,}))");
         }
 
+        /// <summary>
+        /// Extracts and validates a phone number from text using Brazil's mask
+        /// </summary>
+        /// <param name="input">Text to search phone number on</param>
+        /// <returns></returns>
         public PhoneNumber ValidatePhoneNumber(string input)
         {
             var toReturn = new PhoneNumber("", false);

@@ -7,7 +7,7 @@ namespace DataValidator.Date
     public class DateResult
     {
         /// <summary>
-        /// Extracted and formatted date using format dd/MM/yyyy
+        /// Extracted and formatted date using format given
         /// </summary>
         public string Value { get; set; }
 
@@ -35,6 +35,9 @@ namespace DataValidator.Date
         {
             Value = value;
             IsValid = IsValid;
+            Age = null;
+            IsWeekend = false;
+            IsHoliday = false;
         }
 
     }
