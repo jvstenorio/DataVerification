@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Lucas Mundim, Andre Minellil, Gabriel Santos, Tulio Rezende, Arthur Iperoyg</Authors>
+    <Authors>Lucas Mundim, Andre Minellil, Gabriel Santos, Tulio Rezende, Arthur Iperoyg, Andre Borba</Authors>
     <Company>Take</Company>
     <Description>NuGet package to validate formats of different identifier strings such as CPF, CNPJ, phone numbers, car plates...</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/lfmundim/DataVerification</RepositoryUrl>
     <PackageTags>verification, validation, cpf, cnpj, plate, phone</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

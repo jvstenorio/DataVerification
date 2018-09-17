@@ -1,0 +1,7 @@
+v1.0.0:
++CPF verification
++CNPJ verification
+
+v1.0.1:
++Date verification
++Phone number verification
