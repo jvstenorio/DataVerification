@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Lucas Mundim, Andre Minellil, Gabriel Santos, Tulio Rezende, Arthur Iperoyg</Authors>
+    <Company>Take</Company>
+    <Description>NuGet package to validate formats of different identifier strings such as CPF, CNPJ, phone numbers, car plates...</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lfmundim/DataVerification</RepositoryUrl>
+    <PackageTags>verification, validation, cpf, cnpj, plate, phone</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\DataValidator.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
