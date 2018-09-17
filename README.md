@@ -1,5 +1,5 @@
 # DataVerification [![Build Status](https://travis-ci.org/lfmundim/DataVerification.svg?branch=master)](https://travis-ci.org/lfmundim/DataVerification)
-NuGet package responsible for various kinds of verifications
+NuGet package responsible for various kinds of verifications. Disclaimer: most of them use Brazil's format (such as Phone number format).
 
 ## Index
 1. [CPF](#CPF-Validation)
