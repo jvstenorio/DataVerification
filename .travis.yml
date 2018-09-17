@@ -1,0 +1,6 @@
+language: csharp
+mono: none
+dotnet: 2.0
+script: 
+  - dotnet build src/DataValidator.csproj
+  - dotnet test DataValidator.Tests/DataValidator.Tests.csproj
