@@ -4,8 +4,8 @@ NuGet package responsible for various kinds of verifications. Disclaimer: most o
 ## Index
 1. [CPF](#CPF-Validation)
 1. [CNPJ](#CNPJ-Validation)
-1. [Date]()
-1. [Phone number]()
+1. [Date](#Date-validation)
+1. [Phone number](#Phone-number-validation)
 
 ## CPF Validation
 This validation service relies on the following class, returned by the method `ICheckCpf.ExtractAndCheckCpf()`:
