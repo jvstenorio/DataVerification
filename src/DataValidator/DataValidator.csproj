@@ -8,7 +8,8 @@
     <PackageProjectUrl>https://lfmundim.github.io/DataVerification/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lfmundim/DataVerification</RepositoryUrl>
     <PackageTags>verification, validation, cpf, cnpj, plate, phone</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Added plate checker with mercosul and brazilian standards</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
