@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="82-C7-2A-15-1C-06-13-79-FF-83-19-64-B8-AE-79-5A-DB-37-59-23">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2018-08-01T00:20:56.7807035Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="42-5D-0E-14-9A-00-93-21-57-8C-FC-8C-B0-3D-F9-C7-AF-CD-A3-02">
+      <ModulePath>C:\Users\Lucas\.nuget\packages\nunit.consolerunner\3.9.0\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2018-09-05T23:18:28Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="08-DE-EA-E1-0B-80-32-F5-3F-FB-C0-A6-E1-61-D8-B3-5E-75-1A-C4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-07-25T03:18:11.8724221Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="0A-47-64-32-4B-83-DF-99-42-5A-C7-DE-DA-21-E5-6C-A1-90-50-AC">
+      <ModulePath>C:\Users\Lucas\.nuget\packages\nunit.consolerunner\3.9.0\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2018-09-05T23:18:28Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

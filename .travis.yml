@@ -4,3 +4,5 @@ dotnet: 2.0
 script: 
   - dotnet build src/DataValidator.sln
   - dotnet test DataValidator.Tests/DataValidator.Tests.csproj
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
