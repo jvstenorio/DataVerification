@@ -14,10 +14,22 @@ namespace DataValidator.Plate
         /// </summary>
         /// <param name="plate"></param>
         /// <param name="isValid"></param>
-        public Plate(string plate, bool isValid)
+        /// <param name="plateType"></param>
+        public Plate(string plate, bool isValid, PlateTypes plateType)
         {
             FullPlate = plate;
             IsValid = isValid;
+            PlateType = plateType;
+        }
+
+        /// <summary>
+        /// Empty ctor
+        /// </summary>
+        public Plate()
+        {
+            FullPlate = string.Empty;
+            IsValid = false;
+            PlateType = PlateTypes.Unknown;
         }
 
         /// <summary>
@@ -29,5 +41,10 @@ namespace DataValidator.Plate
         /// Boolean indicating if format matches Brazilian/MERCOSUL standards
         /// </summary>
         public bool IsValid { get; }
+
+        /// <summary>
+        /// Plate type from the supported formats
+        /// </summary>
+        public PlateTypes? PlateType { get; }
     }
 }
